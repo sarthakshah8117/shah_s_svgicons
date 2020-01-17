@@ -7,7 +7,7 @@
   console.log("some message - from Javascript");
   // find the button element on page by its id with javascript
   let
-  theButton = document.querySelector("#myButton"),
+  // theButton = document.querySelector("#myButton"),
   theHeading = document.querySelector ('h1'),
   // svgImage = document.querySelector("#svggraphic"),
   allSVGs = document.querySelectorAll(".svg");
@@ -22,7 +22,7 @@
 }
 
 
- theButton.addEventListener("click", changeText);
+ // theButton.addEventListener("click", changeText);
  // svgImage.addEventListener("click", logsvg);
  // svgImage2.addEventListener("click", logsvg);
 
