@@ -1,0 +1,20 @@
+.img-wrapper { display: inline-block;
+  width:45%;
+  padding: 10px 15px;}
+
+.img-wrapper img { width: 100%;  }
+
+.black-bg {
+  background-color: black;
+}
+
+
+
+#beerGraphic:hover #lGrain {fill: red;}
+#beerGraphic:hover #rGrain {fill: red;}
+
+#beerGraphic:hover #lStar {fill: yellow;}
+#beerGraphic:hover #rStar {fill: yellow;}
+
+#beerGraphic:hover #lgrain {fill: red;}
+#beerGraphic:hover #rgrain {fill: red;}
