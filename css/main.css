@@ -1,4 +1,4 @@
-/* .img-wrapper { display: inline-block;
+ .img-wrapper { display: inline-block;
   width:45%;
   padding: 10px 15px;}
 
@@ -10,18 +10,18 @@
 
 
 
-#beerGraphic:hover #lGrain {fill: red;}
+/* #beerGraphic:hover #lGrain {fill: red;}
 #beerGraphic:hover #rGrain {fill: red;}
 
 #beerGraphic:hover #lStar {fill: yellow;}
 #beerGraphic:hover #rStar {fill: yellow;}
 
 #beerGraphic:hover #lgrain {fill: red;}
-#beerGraphic:hover #rgrain {fill: red;} */
+#beerGraphic:hover #rgrain {fill: red;}  */
 
 /* SVG PROJECT START */
 
-body {
+/* body {
   background-color: white;
 }
 
@@ -86,4 +86,4 @@ body {
   /* height: 900px; */
   width: 150px;
   margin-left: 10px;
-}
+} */
