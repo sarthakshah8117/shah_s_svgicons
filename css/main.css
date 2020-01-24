@@ -1,20 +1,87 @@
-.img-wrapper { display: inline-block;
+ .img-wrapper { display: inline-block;
   width:45%;
   padding: 10px 15px;}
 
 .img-wrapper img { width: 100%;  }
 
-.black-bg {
-  background-color: black;
-}
 
 
 
-#beerGraphic:hover #lGrain {fill: red;}
+
+/* #beerGraphic:hover #lGrain {fill: red;}
 #beerGraphic:hover #rGrain {fill: red;}
 
 #beerGraphic:hover #lStar {fill: yellow;}
 #beerGraphic:hover #rStar {fill: yellow;}
 
 #beerGraphic:hover #lgrain {fill: red;}
-#beerGraphic:hover #rgrain {fill: red;}
+#beerGraphic:hover #rgrain {fill: red;}  */
+
+/* SVG PROJECT START */
+
+/* body {
+  background-color: white;
+}
+
+.main_container: {
+  display: flex;
+  flex-direction: column;
+  margin: 0auto;
+  width: 1000px;
+}
+
+#header {
+  height: 100px;
+  background-color: black;
+}
+
+
+.svg_icons {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.icons {
+  position: relative;
+  height: 400px;
+  width: 250px;
+
+  margin: 30px;
+  margin-top: 50px;
+  box-shadow: 5px 7px 5px #333;
+}
+
+.img {
+  padding: 10px 15px;
+  height: 300px;
+  width: 50px;
+  margin-left: 20px;
+}
+
+.icons:hover {
+  transform: translateY(5px);
+  box-shadow: 5px 7px 5px #333;
+}
+
+.size1 {
+  /* height: 100px; */
+  width: 100px;
+  margin-left: 20px;
+}
+.size2 {
+  /* height: 500px; */
+  width: 250px;
+  margin-top: 20px;
+  margin-left: -40px;
+
+}
+
+.size3 {
+  /* height: 900px; */
+  width: 150px;
+  margin-left: 10px;
+} */
