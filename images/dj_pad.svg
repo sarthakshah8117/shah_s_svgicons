@@ -1,0 +1,61 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264.63 225.78">
+  <defs>
+    <style>
+
+      #Layer_1:hover #small_dj { fill: red;
+
+      }
+      #Layer_1:hover #medium_dj { fill: #d3c7dd;
+      
+      }
+      #Layer_1:hover #large_dj { fill: #010203;
+      
+      }
+      .cls-1 {
+        fill: #73c7fb;
+      }
+
+      .cls-2 {
+        fill: #85dbfd;
+      }
+
+      .cls-3 {
+        fill: #321d62;
+      }
+
+      .cls-4 {
+        fill: #d3c7dd;
+      }
+
+      .cls-5 {
+        fill: #8f50bc;
+      }
+    </style>
+  </defs>
+  <title>dj_pad</title>
+  <ellipse id="large_dj" class="cls-1" cx="126" cy="112.89" rx="126" ry="112.89"/>
+  <ellipse id="medium_dj" class="cls-2" cx="124.75" cy="90.86" rx="75.52" ry="66.13"/>
+  <ellipse id="small_dj" class="cls-3" cx="126.65" cy="103.59" rx="61.83" ry="54.11"/>
+  <g id="CIRCLES_BOTTOM">
+    <circle id="LARGEST" class="cls-4" cx="123.86" cy="165.08" r="2.79"/>
+    <circle id="LARGE" class="cls-4" cx="123.86" cy="172.09" r="2.14"/>
+    <circle id="MEDIUM" class="cls-4" cx="123.86" cy="177.52" r="1.74"/>
+    <circle id="SMALLEST" class="cls-4" cx="123.86" cy="185.54" r="0.89"/>
+    <circle id="SMALL" class="cls-4" cx="123.94" cy="181.85" r="1.12"/>
+  </g>
+  <g id="CIRCLES_LEFT">
+    <circle id="LARGEST-2" data-name="LARGEST" class="cls-4" cx="42.77" cy="86.48" r="2.79"/>
+    <circle id="LARGE-2" data-name="LARGE" class="cls-4" cx="35.78" cy="86" r="2.14"/>
+    <circle id="MEDIUM-2" data-name="MEDIUM" class="cls-4" cx="30.36" cy="85.63" r="1.74"/>
+    <circle id="SMALLEST-2" data-name="SMALLEST" class="cls-4" cx="22.36" cy="85.08" r="0.89"/>
+    <circle id="SMALL-2" data-name="SMALL" class="cls-4" cx="26.03" cy="85.41" r="1.12"/>
+  </g>
+  <g id="CIRCLES_RIGHT">
+    <circle id="LARGEST-3" data-name="LARGEST" class="cls-4" cx="208.86" cy="86.14" r="2.79"/>
+    <circle id="LARGE-3" data-name="LARGE" class="cls-4" cx="215.84" cy="86.62" r="2.14"/>
+    <circle id="MEDIUM-3" data-name="MEDIUM" class="cls-4" cx="221.26" cy="86.99" r="1.74"/>
+    <circle id="SMALLEST-3" data-name="SMALLEST" class="cls-4" cx="229.27" cy="87.54" r="0.89"/>
+    <circle id="SMALL-3" data-name="SMALL" class="cls-4" cx="225.59" cy="87.21" r="1.12"/>
+  </g>
+  <path class="cls-5" d="M154.55,86.35s-6.36-2.93-6.36-3.33a38,38,0,0,0-6.16.83s-4.26.83-7.83-3.77c0,0-1.91-3-1-4.94a6.19,6.19,0,0,1,4.74-2.45l.78-.2,5-1.42s1.27-1,4.69-1.17h4.08s9.42.86,10.16.42c0,0,5.09-.59,6.75.24,0,0,1.37.27,4.5,3.42,0,0,7.34,7.68,7.65,8.51,0,0,5.53,6.63,6,7.31,0,0,2.45,3.3,2.91,3.64l.24.34s7.9,0,8.9-.29c0,0,6.29-.49,7.19-.2,0,0,6.92,0,10.52,3.72,0,0,4.65.56,6.75,2.76,0,0,5,2.74,5.58,4.79,0,0,3.57,10.86,4.89,11.54,0,0,8.9,17.66,9.29,17.76,0,0,8.54-1.69,13.13,3.33l7.68,8.12s-10.93,1-18.68,6.7c0,0-15.33,11.49-19,18.83,0,0-15,21.52-12.82,36.39l-8.66-9.15s-4.55-6.55-3.13-14.43c0,0-13.34-7.47-14.18-8.64,0,0-7-6.85-9.46-7,0,0-7.76-3.85-8.74-4,0,0-9-5-12.07-5.8,0,0-15.52-4-15.78-4.7,0,0-4.63-5-5.54-6.52,0,0-19.63-2.67-7.43-11.67,0,0,9.07-5.09,21.2,2,0,0,12.91,2.09,14.15,1.83H169a10.25,10.25,0,0,0,7.76-5.09,34.23,34.23,0,0,0,2.58-4.06s1.17-4.26.34-5.67c0,0-5.33-18.2-6.26-19.13,0,0-6-7.78-7.43-8.51,0,0-4.74-5.53-5-8.27l-.59-1.37s-.15-.24-1.22-.2Z"/>
+</svg>
