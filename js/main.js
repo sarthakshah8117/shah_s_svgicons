@@ -1,33 +1,25 @@
-//  this is self-invoking anonymous function
-// also called (function()
-// also called a module
-
-
 (() => {
-  console.log("some message - from Javascript");
-  // find the button element on page by its id with javascript
-  let
-  // theButton = document.querySelector("#myButton"),
-  theHeading = document.querySelector ('h1'),
-  // svgImage = document.querySelector("#svggraphic"),
-  allSVGs = document.querySelectorAll(".svg");
+  //this is an IIFE  -->  also an implementation of the module pattern
 
-  // this function changes the heading text
-  function changeText() {
-   theHeading.textContent = "hello there from console";
- }
- // log the id of the svg to the console when a uer hovers on it
- function logsvg() {
-  console.log(this.id);
-}
+  // always go and get the elements you are working with
+  const mySpan = document.querySelector('main span'),
+  myobject = document.querySelector('.container');
+
+  //functionality goes here => what we want ro have happen
+  function toggleSelection() {
+    // we want to update our UI to make it look good
+    // we are making a toggleSelection
+    // debugger;
+    // toggle  a css class to the elements with the javasvript
+    this.classList.toggle("selected");
+    console.log(this.id);
+  }
+
+  // figure out what triggers will drive the functionality
+  mySpan.addEventListener('click', toggleSelection);
+  myobject.addEventListener('click', toggleSelection);
 
 
- // theButton.addEventListener("click", changeText);
- // svgImage.addEventListener("click", logsvg);
- // svgImage2.addEventListener("click", logsvg);
 
- // loop through the collection and apply our event handling to each element
- allSVGs.forEach(item => item.addEventListener('click', logsvg));
-// document.querySelector('h1').textContent = "hello there from console";
 
-})();
+})()
