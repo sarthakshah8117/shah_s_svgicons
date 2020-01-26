@@ -141,5 +141,19 @@ p {
 
 }
 
+main span {
+  cursor: pointer;
+}
+
+.selected {
+  color: green;
+  padding-left: 2px;
+}
+
+.selected:not(.icons_container)::before{
+  content: '\2713';
+}
+
+
 
 
