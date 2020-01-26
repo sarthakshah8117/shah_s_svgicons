@@ -1,6 +1,10 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 768 600.93">
   <defs>
     <style>
+
+
+      #_3:Layer_1 #_1 .cls-1 .cls-2 { fill: red;
+      }
       .cls-1 {
         opacity: 0.2;
       }

@@ -1,29 +1,69 @@
 body {
-  background-color: ;
+  background-color: 222;
+}
+
+h1 {
+  color: #53FF14;
+  font-size: 50px;
+  text-align: center;
+   }
+
+h2 {
+  color: #17D3FF;
+  text-align: center;
+  font-size: 30px;      
+} 
+   
+  /* #promo {
+    background-color: #999;
+    font-family: Tahoma, Geneva, sans-serif;
+   }
+
+   #promo p {
+    text-align: right;
+   } */ 
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  
+}
+
+.logocontainer {
+  height: 180px;
+  margin-top: -180px;
+ 
+
 }
 
 .icons_container {
-  margin-top: 150px;
+  margin-top: 80px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: space-around;
+  margin-left: 80px;
+  
 }
 
 .container {
   position: relative;
+  display: flex;
+  flex-direction: column;
   transition: transform 0.5s ease-in-out;
   height: 400px;
-  width: 250px;
+  width: 260px;
   background-color: #ffffff;
-  border-radius: 100px;
-  margin: 10px;
-  margin-top: 10px;
+  border-radius: 50px;
+  margin: 30px;
+  margin-top: 50px;
   box-shadow: 5px 10px 8px #888888;
 }
 
 .container:hover {
-  transform: translateY(-10px);
+  transform: translateY(-20px);
   box-shadow: 5px 10px 8px #888888;
 }
 
@@ -31,24 +71,74 @@ body {
   padding: 10px 15px;
 }
 
-.subcontainer1 {
+p {
+  
+  color: #FF4E48 ;
+  text-align: center;
+  font-size: 30px;  
+}
+
+.subcontainer_star {
   padding: 10px 15px;
   margin-left: 10px;
   margin-top: 100px;
 }
-.subcontainer_lights {
+
+.subcontainer_pad {
   padding: 10px 15px;
   margin-left: 10px;
-  margin-top: 150px;
+  margin-top: 75px;
+}
+.subcontainer_mic{
+  padding: 10px 15px;
+  margin-left: 50px;
+  
+}
+.subcontainer_headphones {
+  padding: 10px 15px;
+  margin-left: 10px;
+  margin-top: 50px;
 }
 
-.subcontainer3 {
+.subcontainer_buttons {
+  padding: 10px 15px;
+  margin-left: 10px;
+  margin-top: 100px;
+}
+.subcontainer_squares {
   padding: 10px 15px;
   margin-left: 10px;
   margin-top: 100px}
 
-.try {
-  margin-top: 500px;
+.subcontainer_lights {
+  padding: 10px 15px;
+  margin-left: 10px;
+  margin-top: 100px;
+}
+
+.subcontainer_volume {
+  padding: 10px 15px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.subcontainer_bass {
+  padding: 10px 15px;
+  margin-left: 10px;
+  margin-top: 100px}
+
+.lineone {
+  display: inline;
+
+}
+
+.linetwo {
+  display: inline;
+
+}
+.linethree {
+  display: inline;
+
 }
 
 
