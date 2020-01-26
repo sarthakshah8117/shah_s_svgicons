@@ -1,5 +1,5 @@
 # Welcome To My SVG Icons Assignment
-! [Websit_preview ](/images/screenshot_readme.png)
+![alt text](images/screenshot_readme.png)
 
 ## Steps Performed :
 1. Research on how thins will be done.
